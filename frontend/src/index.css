@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply border py-1 px-4 rounded-md shadow;
+  }
+  .field {
+    @apply flex flex-col gap-2;
+  }
+  .btn {
+    @apply flex items-center gap-2 border py-1 px-3 rounded-md transition hover:bg-gray-200 hover:shadow;
+  }
+}
